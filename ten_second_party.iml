@@ -23,8 +23,10 @@
     <orderEntry type="library" exported="" name="mysql-connector-java-5.1.46-bin" level="project" />
     <orderEntry type="library" exported="" name="javax.servlet" level="project" />
     <orderEntry type="library" exported="" name="javax.servlet.jsp" level="project" />
-    <orderEntry type="library" name="jquery-3.3.1" level="application" />
-    <orderEntry type="library" name="jQuery" level="project" />
-    <orderEntry type="library" name="Jquery" level="application" />
+    <orderEntry type="library" exported="" name="jquery-3.3.1" level="application" />
+    <orderEntry type="library" exported="" name="jQuery" level="project" />
+    <orderEntry type="library" exported="" name="Jquery" level="application" />
+    <orderEntry type="library" exported="" name="jstl" level="project" />
+    <orderEntry type="library" exported="" name="standard" level="project" />
   </component>
 </module>

@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>登陆</title>
-
+    <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 </head>
 <body>
 <jsp:include page="abc.jsp"></jsp:include>
