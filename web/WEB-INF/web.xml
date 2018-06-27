@@ -10,7 +10,42 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>Servlet01</servlet-name>
-        <url-pattern>/ServlerPackage.Servlet01</url-pattern>
+        <url-pattern>/ServlerPackage/Servlet01</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>UserServlet</servlet-name>
+        <servlet-class>ServlerPackage.UserServletGroup.UserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserServlet</servlet-name>
+        <url-pattern>/ServlerPackage/UserServletGroup/UserServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SiveServlet</servlet-name>
+        <servlet-class>ServlerPackage.UserServletGroup.SiveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SiveServlet</servlet-name>
+        <url-pattern>/ServlerPackage/UserServletGroup/SiveServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateUserServlet</servlet-name>
+        <servlet-class>ServlerPackage.UserServletGroup.UpdateUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateUserServlet</servlet-name>
+        <url-pattern>/ServlerPackage/UserServletGroup/UpdateUserServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>ServlerPackage.UserServletGroup.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/ServlerPackage/UserServletGroup/LoginServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
