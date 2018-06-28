@@ -15,5 +15,11 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="new_file" uuid="2c7488e6-0b9c-4849-9639-404894a690f6">
+      <driver-ref>derby.embedded</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.derby.jdbc.EmbeddedDriver</jdbc-driver>
+      <jdbc-url>jdbc:derby:$PROJECT_DIR$/MySQL langugae/CreateDatabases\new_file</jdbc-url>
+    </data-source>
   </component>
 </project>

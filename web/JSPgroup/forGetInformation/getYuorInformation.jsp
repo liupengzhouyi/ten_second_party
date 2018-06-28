@@ -11,17 +11,9 @@
     <title>用户注册</title>
 </head>
 <body>
-    <%--<form action="index.jsp" method="post">
-        <%
-            request.setAttribute("name", "landing");
-        %>
-        <input type="submit" name="landing" value="登陆">
-        &nbsp;&nbsp;
-        <input type="submit" name="registered" value="注册">
-    </form>--%>
-
     <a href="index.jsp?name=landing" >登陆</a>
     &nbsp;&nbsp;
     <a href="index.jsp?name=registered" >注册</a>
+
 </body>
 </html>
