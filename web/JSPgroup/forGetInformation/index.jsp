@@ -11,9 +11,12 @@
     <title>Insert in to your information</title>
 </head>
 <body>
+
+<%--    这是一个注释--%>
+
     <%
         String string = request.getParameter("name");
-        System.out.println(string);
+        //System.out.println(string);
         if (string.equals("landing")) {
             response.sendRedirect(request.getContextPath() + "/JSPgroup/forGetInformation/Landing.jsp?name=landing");
         } else {
