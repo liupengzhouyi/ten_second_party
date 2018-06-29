@@ -11,7 +11,7 @@
     <title>注册页面</title>
 </head>
 <body>
-<form action="/ServlerPackage/UserServletGroup/SiveServlet" method="post">
+<form action="/ServlerPackage/UserServletGroup/UpdateUserServlet" method="post">
     用户名 : &nbsp;&nbsp; <input type="text" name="username">
     <br>
     密&nbsp;码 : &nbsp;&nbsp; <input type="password" name="password">
