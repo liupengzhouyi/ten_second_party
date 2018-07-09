@@ -1,0 +1,80 @@
+/*
+ * colors variables
+ */
+.footer-bottom {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-bottom .link {
+  overflow: hidden;
+}
+
+.footer-bottom .link dl {
+  float: left;
+  width: 203px;
+}
+
+@media (min-width: 1200px) {
+  .footer-bottom .link dl {
+    width: 203px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  .footer-bottom .link dl {
+    width: 186px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer-bottom .link dl {
+    width: 150px;
+  }
+}
+
+.footer-bottom .link dl dt {
+  padding-bottom: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer-bottom .link dl dd {
+  margin-left: 0;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.footer-bottom .link .xuke {
+  float: right;
+  margin-top: 6px;
+}
+
+@media (min-width: 1200px) {
+  .footer-bottom .link .xuke {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  .footer-bottom .link .xuke {
+    width: 250px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer-bottom .link .xuke {
+    width: 200px;
+  }
+}
+
+.footer-bottom .link .xuke p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.footer-bottom .Copyright {
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+}

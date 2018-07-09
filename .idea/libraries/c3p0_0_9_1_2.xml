@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="c3p0-0.9.1.2">
+    <CLASSES>
+      <root url="jar://F:/JAR/kk/c3p0-0.9.1.2.jar!/" />
+      <root url="jar://F:/JAR/kk/commons-beanutils-1.8.3.jar!/" />
+      <root url="jar://F:/JAR/kk/commons-dbutils-1.4.jar!/" />
+      <root url="jar://F:/JAR/kk/commons-fileupload-1.2.1.jar!/" />
+      <root url="jar://F:/JAR/kk/commons-io-1.4.jar!/" />
+      <root url="jar://F:/JAR/kk/commons-logging-1.1.1.jar!/" />
+      <root url="jar://F:/JAR/kk/jstl.jar!/" />
+      <root url="jar://F:/JAR/kk/mail.jar!/" />
+      <root url="jar://F:/JAR/kk/mysql-connector-java-5.0.4-bin.jar!/" />
+      <root url="jar://F:/JAR/kk/standard.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

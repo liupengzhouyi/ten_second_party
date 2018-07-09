@@ -48,4 +48,65 @@
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/ServlerPackage/UserServletGroup/LoginServlet</url-pattern>
     </servlet-mapping>
+
+    <filter>
+        <filter-name>EncodingFilter</filter-name>
+        <filter-class>com.itheima.web.filter.EncodingFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>EncodingFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <servlet>
+        <description></description>
+        <display-name>UserServlet</display-name>
+        <servlet-name>UserServlet</servlet-name>
+        <servlet-class>com.itheima.web.servlet.UserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserServlet</servlet-name>
+        <url-pattern>/user</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description></description>
+        <display-name>UploadServlet</display-name>
+        <servlet-name>UploadServlet</servlet-name>
+        <servlet-class>com.itheima.web.test.UploadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadServlet</servlet-name>
+        <url-pattern>/upload</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description></description>
+        <display-name>UpdateUserServlet</display-name>
+        <servlet-name>UpdateUserServlet</servlet-name>
+        <servlet-class>com.itheima.web.servlet.UpdateUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateUserServlet</servlet-name>
+        <url-pattern>/updateUser</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description></description>
+        <display-name>ExperienceServlet</display-name>
+        <servlet-name>ExperienceServlet</servlet-name>
+        <servlet-class>com.itheima.web.servlet.ExperienceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ExperienceServlet</servlet-name>
+        <url-pattern>/experience</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description></description>
+        <display-name>DateServlet</display-name>
+        <servlet-name>DateServlet</servlet-name>
+        <servlet-class>com.itheima.web.servlet.DateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DateServlet</servlet-name>
+        <url-pattern>/date</url-pattern>
+    </servlet-mapping>
+
+
 </web-app>
